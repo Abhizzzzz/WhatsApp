@@ -1,0 +1,363 @@
+:root {
+	font-size: 16px;
+}
+#cardAdjust{
+	margin-left: 3rem;
+	margin-right: 3rem;
+	height: 90vh;
+}
+.test:after {
+  content: '\2807';
+  font-size: 1.5rem;
+  color: gray;
+}
+#searchAdjust{
+	color: gray;
+	font-size: 1.5rem;
+}
+.paperClipAdjust{
+	font-size:1.5rem;
+	color:gray;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+#indexSearch{
+	height: 5vh;
+	background-color: #f2f2f2;
+}
+.indexSearchHeight{
+	height: 4vh;
+}
+#indexSearchIcon{
+	font-size: 1.5rem;
+}
+.chatContainer{
+	height: 9vh;
+	background-color: #f2f2f2;
+}
+#rightFrameAdjust{
+	height: 88.5vh;
+	width: all;
+	border: none;
+	/*margin-left: -0.05rem;*/
+}
+.indexDp{
+		border-radius:70%;
+		width:2.5vw;
+		 height:5vh;
+}
+.indexChatHeader{
+	text-decoration: none;
+	color: black;
+	font-size: 1rem
+}
+.indexChatBody{
+	text-decoration: none;
+	font-size: 1rem;
+}
+.indexChatTime{
+	text-align-last: end;
+	margin-right: 1rem;
+	font-size: 1rem;
+}
+.strip{
+	height: 11vh;
+	width: all;
+	background-color: white;
+}
+.strip:hover{
+	background-color: #f8f8f8;
+}
+.hrithikDpAdjust{
+	border-radius:50%;
+	width:7vw; 
+	height:7vh;
+	margin-top: 0.5rem;
+}
+.glyphicon-search:before{
+	content:"\e094";
+}
+.imageAdjust{
+	border-radius:70%;
+	width:3vw; 
+	height:6vh;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+#chatHeader{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+
+.chatAdjust{
+	border-radius: 0.5rem;
+	font-size: 1.4rem;
+	margin:1.2rem 1.2rem;
+	padding:0.5rem 0.5rem;
+}
+.smallChatAdjust{
+	color:#A9A9A9;
+	font-size: 1.2rem;
+}
+#rightFrameImage{
+	border-radius:50%;
+	width:40vw;
+	height:50vh;
+}
+.microphoneAdjust{
+	cursor: pointer;
+	color:white;
+	position: fixed;
+	bottom:0.7rem;
+	right:1.4rem;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	margin:0;
+	padding:0.9rem 1.5rem;
+	background-color:#128C7E
+}
+
+.inputTextAdjust{
+	position: fixed;
+	bottom:0.7rem;
+	left:1.4rem;
+	width:calc(100% - 7.8rem);
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+	padding:0.9rem 0.5rem;
+	background-color:white
+}
+
+@media only screen and (max-width: 600px) {
+	#cardAdjust{
+	margin-left: -0.9rem;
+	margin-right: -0.9rem;
+	margin-top: -1.5rem;
+	}
+
+	.inputTextAdjust{
+		font-size: 1rem;
+	}
+
+	.microphoneAdjust{
+		font-size: 1rem;
+	}
+	.chatAdjust{
+	
+	font-size: 1rem;
+	
+	}
+	.smallChatAdjust{
+	
+	font-size: 0.7rem;
+	}
+	.hrithikDpAdjust{
+		width: 10vw;
+	}
+	#searchAdjust{
+	
+		font-size: 1.2rem;
+	}
+	.paperClipAdjust{
+		font-size: 1.2rem;
+		/*margin-top: 1rem;*/
+	
+	}
+	.test:after {
+  		
+  		font-size: 1.2rem;
+  
+	}
+	.indexDp{
+		
+		width:4.5vw;
+		
+	}
+	#chatHeader{
+		font-size: 1rem;
+	}
+	#rightFrameImage{
+		height: 40vh;
+	}
+	.indexChatHeader{
+		font-size: 0.8rem;
+	}
+	.indexChatBody{
+		font-size: 0.8rem;
+	}
+	.indexChatTime{
+		font-size: 0.8rem;
+	}
+	.imageAdjust{
+		width:6vw; 
+		height:7vh;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.hrithikDpAdjust{
+		width: 15vw;
+	}
+	.chatAdjust{
+	
+	font-size: 0.8rem;
+	
+	}
+	.smallChatAdjust{
+	
+	font-size: 0.5rem;
+	}
+	.inputTextAdjust{
+		font-size: 0.8rem;
+	}
+
+	.microphoneAdjust{
+		font-size: 0.8rem;
+	}
+	#searchAdjust{
+	
+		font-size: 1rem;
+	}
+	.paperClipAdjust{
+		font-size: 1rem;
+		margin-top: 1rem;
+	
+	}
+	.test:after {
+  		
+  		font-size: 1rem;
+  
+	}
+	#chatHeader{
+		font-size: 0.7rem;
+	}
+	#rightFrameImage{
+		height: 30vh;
+	}
+	.indexChatHeader{
+		font-size: 0.6rem;
+	}
+	.indexChatBody{
+		font-size: 0.6rem;
+	}
+	.indexChatTime{
+		font-size: 0.6rem;
+	}
+	.imageAdjust{
+		width:7vw; 
+		height:7vh;
+	}
+	.indexDp{
+		
+		width:5.5vw;
+		
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.hrithikDpAdjust{
+		width: 20vw;
+	}
+	.chatAdjust{
+	
+	font-size: 0.6rem;
+	
+	}
+	.smallChatAdjust{
+	
+	font-size: 0.3rem;
+	}
+	.inputTextAdjust{
+		font-size: 0.6rem;
+	}
+
+	.microphoneAdjust{
+		font-size: 0.6rem;
+	}
+	#searchAdjust{
+	
+		font-size: 0.8rem;
+	}
+	.paperClipAdjust{
+		font-size: 0.8rem;
+		/*margin-top: 1rem;*/
+	
+	}
+	.test:after {
+  		
+  		font-size: 0.8rem;
+  
+	}
+	#chatHeader{
+		font-size: 0.5rem;
+	}
+	#rightFrameImage{
+		height: 20vh;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	#searchAdjust{
+	
+		font-size: 0.5rem;
+	}
+	.paperClipAdjust{
+		font-size: 0.5rem;
+		margin-top: 1.5rem;
+	
+	}
+	.test:after {
+  		
+  		font-size: 0.5rem;
+  
+	}
+	#chatHeader{
+		font-size: 0.4rem;
+	}
+}
+
+@media only screen and (max-height: 630px){
+	.strip{
+		height: 14vh;
+	}
+	
+	
+}
+@media only screen and (max-height: 500px){
+	.strip{
+		height: 17vh;
+	}
+	
+}
+
+@media only screen and (max-height: 565px){
+	.indexSearchHeight{
+		margin-top: 0.5rem;
+	}
+
+}
+@media only screen and (max-height: 500px){
+	#indexSearchIcon{
+		font-size: 1.2rem;
+	}
+	.chatContainer{
+		height: 12vh;
+	}
+	#searchAdjust{
+		margin-top: 0.2rem;
+		
+	}
+	.paperClipAdjust{
+		
+		margin-top: 1.5rem;
+	
+	}
+	
+}
+@media only screen and (max-height: 400px){
+	#indexSearchIcon{
+		font-size: 0.9rem;
+	}
+}
